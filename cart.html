@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All products - Floreos</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+<body>
+    
+	
+	    <div class="container">
+    
+    
+    <div class="navbar">
+    <div class="logo">
+        <img src="Images/logo.jpg" width="125px">
+        
+    </div>
+        <nav>
+        <ul id="menuitems">
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+             <li><a href="">About</a></li>
+             <li><a href="">Contact</a></li>
+             <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+		<img src="Images/cart.png" width="30px" height="30px">
+		<img src="Images/img_45818.png" class="menu-icon" onclick="menutoggle()">
+     </div> 
+        
+    </div>
+	<!----------cart items details----------->
+	<div class="small-container">
+	<table>
+		<tr>
+		<th>Product</th>
+		<th>Quantity</th>
+		<th>Subtotal</th>
+		</tr>
+		<tr>
+			<td>
+			<div class="cart-info">
+				<img src="Images/blueshirt.jpg" width="30%">
+				<div>
+				<p>Blue printed shirt</p>
+				<small>price: $1300.00 </small>
+				<br>
+				<a href="">Remove</a>
+				</div>
+				</div>
+			</td>
+		    <td><input type="number" value="1"></td>
+			<td>$1300.00</td>
+		</tr>
+		<tr>
+			<td>
+			<div class="cart-info">
+				<img src="Images/black.jpeg" width="30%">
+				<div>
+				<p>Blue printed shirt</p>
+				<small>price: $1300.00 </small>
+				<br>
+				<a href="">Remove</a>
+				</div>
+				</div>
+			</td>
+		    <td><input type="number" value="1"></td>
+			<td>$1300.00</td>
+		</tr>
+		<tr>
+			<td>
+			<div class="cart-info">
+				<img src="Images/earring.jpeg" width="30%">
+				<div>
+				<p>Blue printed shirt</p>
+				<small>price: $1300.00 </small>
+				<br>
+				<a href="">Remove</a>
+				</div>
+				</div>
+			</td>
+		    <td><input type="number" value="1"></td>
+			<td>$1300.00</td>
+		</tr>
+		</table>
+		<div class="total-price">
+		<table>
+			<tr>
+			<td>Subtotal</td>
+			<td>$200.00</td>
+			</tr>
+			<tr>
+			<td>Tax</td>
+			<td>$35.00</td>
+			</tr>
+			<tr>
+			<td>Total</td>
+			<td>$235.00</td>
+			</tr>
+			
+			
+			</table>
+		
+		
+		</div>
+		
+		
+		
+		
+		
+		
+	</div>
+	
+	
+	
+	<!-----------footer--------->
+	<div class="footer">
+	<div class="container">
+		<div class="row">
+		<div class="footer-col-1">
+			<h3>Download Our App</h3>
+			<p>Download App for Android and ios mobile phone.</p>
+			<div class="app-logo">
+			<img src="Images/google-play-.jpg">
+				<img src="Images/OIP%20(8).jpg">
+			</div>
+			</div>
+		<div class="footer-col-2">
+			<img src="Images/5.jpg">
+			<p>Our purpose is to sustainably make the pleasure and benefits of sports accessible to the many.</p>
+			</div>
+		<div class="footer-col-3">
+			<h3>Useful Links</h3>
+			<ul>
+			<li>Coupons</li>
+			<li>Blog post</li>
+			<li>Return policy</li>
+			<li>Join Affiliate</li>
+           </ul>
+			</div>
+		<div class="footer-col-4">
+			<h3>Follow Us</h3>
+			<ul>
+			<li>Facebook</li>
+			<li>Twitter</li>
+			<li>Instagram</li>
+			<li>Youtube</li>
+           </ul>
+			</div>
+		</div>
+		<hr>
+		<p class="copyright">Copyright 2020-Easy Tutorial</p>
+		</div>
+	
+	</div>
+	<!-----------js for toggle menu------------>
+	<script>
+	     var menuitems= document.getElementById("menuitems");
+		menuitems.style.maxHeight="0px";
+		
+		function menutoggle(){
+			if(menuitems.style.maxHeight=="0px")
+				{
+					menuitems.style.maxHeight="200px"
+				}
+			else
+				{
+					menuitems.style.maxHeight="0px";
+				}
+		}
+		
+		</script>
+	
+
+	
+	
+	</body>
+</html>
